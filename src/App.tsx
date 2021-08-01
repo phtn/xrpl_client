@@ -51,7 +51,7 @@ function App() {
       <CreateAccount />
       <header className="App-header">
         <span className="App-title">
-          <pre>xrptestv1</pre>
+          <pre>Tx Type</pre>
         </span>
 
         <div style={styles.actions}>
