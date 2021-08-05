@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import SendPayment from "./components/send_payment";
 import TimeHeldEscrow from "./components/time_held_escrow";
 import CreateAccount from "./components/create_account";
+import "antd/dist/antd.css";
 
 const options = [
   { value: "get_account_info", label: "Get Account Info" },
@@ -48,11 +49,12 @@ function App() {
 
   return (
     <div className="App">
-      <CreateAccount />
       <header className="App-header">
-        <span className="App-title">
-          <pre>Tx Type</pre>
-        </span>
+        <div className="App-title">
+          <span className="App-title-text">
+            <pre>Transactions</pre>
+          </span>
+        </div>
 
         <div style={styles.actions}>
           <Select

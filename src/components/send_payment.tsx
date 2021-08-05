@@ -62,7 +62,7 @@ const SendPayment = () => {
     return () => {
       ws.close();
     };
-  });
+  }, [senderData]);
 
   function handleSenderInputChange(e: any) {
     setSenderData(e.value);

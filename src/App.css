@@ -11,7 +11,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 75px;
+  /* min-height: 75px; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -19,13 +19,23 @@
 }
 
 .App-title {
-  font-size: calc(10px + 2vmin);
+  font-size: calc(16px + 1vmin);
   color: white;
-  padding-left: 20px;
+  /* padding-left: 20px; */
+  /* line-height: 50px; */
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  vertical-align: middle;
+  /* line-height: 50px; */
+  /* flex: 0 0 120px; */
+  margin-top: 20px;
 }
 
 .Select {
-  font-size: calc(8px + 1.5vmin);
+  /* font-size: calc(8px + 1.5vmin); */
   font-family: monospace;
   font-weight: 600;
   /* color: red; */
